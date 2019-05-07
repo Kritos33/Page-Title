@@ -1,0 +1,38 @@
+.container, .results {
+    width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    border: 5px solid #bbffff;
+    border-radius: 20px;
+    background-color: white;
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.results {
+    display: none;
+}
+
+.container:hover {
+    background-color: #eeffff;
+    border-color: #eeffaa;
+}
+
+.in3,
+.in1,
+.in2 {
+    padding: 10px;
+}
+
+.submit {
+    background-color: #aaffff;
+    padding: 20px;
+    font-size: 18px;
+    color: #1edede;
+    border: none;
+    margin-top: 20px;
+}
+img{
+ width: 400px; 
+
+}
